@@ -17,7 +17,7 @@ class QuoteScreen extends StatefulWidget {
 class QuoteScreenState extends State<QuoteScreen> {
   
   Timer ? timer;
-  int randomNumber = Random().nextInt(2)+1;
+  int randomNumber = Random().nextInt(62)+1;
   
   final String documentId;
 
@@ -44,7 +44,17 @@ class QuoteScreenState extends State<QuoteScreen> {
 
         if (snapshot.connectionState == ConnectionState.done) {
           Map<String, dynamic> data = snapshot.data!.data() as Map<String, dynamic>;
-          return Text("${data['$randomNumber']}");
+          return Text(
+            "${data['$randomNumber']}",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 30,
+              fontStyle: FontStyle.italic,
+              decoration: TextDecoration.none,
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+            ),
+          );
         }
 
         return Text("loading");
