@@ -1,7 +1,7 @@
 
 # Happy-Quotes-Happy-Valley
 
-A flutter app that creates a new "Happy Message" every day that is specific to Penn State. This app pulls from a Firestore database that contains over 100 curated messages. It then gives the user the option to send notifications every day to look at the new daily quote. 
+A flutter app that creates a new "Happy Message" every day that is specific to Penn State. This app pulls from a Firestore database that contains over 100 curated messages. It then gives the user the option to send notifications every day to look at the new daily quote. This app has already ran a beta test with test flight and is still in creation phase with additions in the future. 
 
 To run the app, 
 
