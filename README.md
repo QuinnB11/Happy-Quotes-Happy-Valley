@@ -12,4 +12,4 @@ To run the app,
 3. ``cd`` into the main directory and run:
 ```flutter run lib/main.dart```
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/QuinnB11/Happy-Quotes-Happy-Valley/blob/main/hqhv/assets/Logo.jpg)
