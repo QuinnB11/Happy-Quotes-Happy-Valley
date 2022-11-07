@@ -5,6 +5,8 @@ A flutter app that creates a new "Happy Message" every day that is specific to P
 To run the app, 
 
 1. download the ``GoogleService-Info.plist`` file
-2. If on IOS, ``cd`` into ios folder and run ``pod update`` to update the pods for IOS
+2. Follow listed sub steps: if on IOS:
+  a. ``cd`` into ios folder and run ``pod update`` to update the pods for IOS
+  b. add ``GoogleService-Info.plist`` file into Runner folder on xCode to be able to run and build the app
 3. ``cd`` into the main directory and run:
 ```flutter run lib/main.dart```
